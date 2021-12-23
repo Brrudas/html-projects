@@ -1,27 +1,43 @@
-h1 {
+body {
+  background: linear-gradient(#3ab795, #a0e8af);
+}
+
+.home h1 {
   color: white;
-  /* width: 500px; */
   font-family: "Imperial Script", cursive;
   font-style: italic;
   border-style: solid;
   border-color: aliceblue;
+  background-color: #a0e8af;
+  font-family: "Imperial Script", cursive;
+  text-align: center;
 }
 
-.blessing {
-  background: url(./images/Blessing/background.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.apellido {
-  font-weight: bold;
-  color: aqua;
-}
-
-h2 {
+.home h2 {
   display: inline-block;
   margin: 0px 120px;
   box-sizing: border-box;
+  background-color: #a0e8af;
+  font-family: "Imperial Script", cursive;
+  text-align: center;
+}
+
+.home .bendicion {
+  color: #86baa1;
+  width: 500px;
+  border-style: solid;
+  border-color: aliceblue;
+}
+
+.home .boda {
+  color: #86baa1;
+  width: 500px;
+  border-style: solid;
+  border-color: aliceblue;
+}
+
+.home img {
+  margin: 10px 120px;
 }
 
 .presents {
@@ -30,43 +46,24 @@ h2 {
   background-size: 40%;
 }
 
-.food {
-  background: url(./images/food/background_food.jpg);
+.survey {
+  /* background: url(./images/food/background_food.jpg);
   background-size: 30%;
   background-repeat: no-repeat;
-  background-position: 50% 200%;
+  background-position: 50% 200%; */
 }
 
-img {
-  width: 500px;
-
-  margin: 10px 120px;
-  /* display: inline; */
-}
-
-.bendicion {
-  color: #86baa1;
-  width: 500px;
-  border-style: solid;
-  border-color: aliceblue;
-}
-.boda {
-  /* margin-right: -100px; */
-  color: #86baa1;
-  width: 500px;
-  border-style: solid;
-  border-color: aliceblue;
-}
-h2,
-h1 {
-  background-color: #a0e8af;
-  font-family: "Imperial Script", cursive;
-  text-align: center;
-}
-body {
-  background-color: #3ab795;
+.blessing {
+  background: url(./images/Blessing/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .blessing img {
   height: 700px;
+}
+
+.apellido {
+  font-weight: bold;
+  color: rgb(13, 155, 155);
 }
