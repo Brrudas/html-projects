@@ -15,25 +15,19 @@ body {
 
 .home h2 {
   display: inline-block;
-  margin: 0px 120px;
+  margin: 10px 120px;
   box-sizing: border-box;
   background-color: #a0e8af;
   font-family: "Imperial Script", cursive;
   text-align: center;
-}
-
-.home .bendicion {
   color: #86baa1;
   width: 500px;
   border-style: solid;
   border-color: aliceblue;
 }
 
-.home .boda {
-  color: #86baa1;
-  width: 500px;
-  border-style: solid;
-  border-color: aliceblue;
+.home #foto3 {
+  float: right;
 }
 
 .home img {
@@ -44,9 +38,6 @@ body {
   background: url(./images/presents/background.jpg);
   background-size: contain;
   background-size: 40%;
-}
-
-.survey {
 }
 
 .blessing {
