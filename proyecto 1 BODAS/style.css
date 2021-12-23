@@ -7,6 +7,12 @@ h1 {
   border-color: aliceblue;
 }
 
+.blessing {
+  background: url(./images/Blessing/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .apellido {
   font-weight: bold;
   color: aqua;
@@ -59,4 +65,8 @@ h1 {
 }
 body {
   background-color: #3ab795;
+}
+
+.blessing img {
+  height: 700px;
 }
