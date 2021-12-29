@@ -1,6 +1,7 @@
-body {
+/* body {
   background: linear-gradient(#3ab795, #a0e8af);
-}
+  background-color: #3ab795;
+} */
 
 .home h1 {
   color: white;
@@ -64,6 +65,10 @@ body {
 
 .home .evento2:hover {
   opacity: 0;
+}
+
+.home .div1 a {
+  width: 500px;
 }
 
 .presents {
