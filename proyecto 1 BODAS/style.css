@@ -26,12 +26,44 @@ body {
   border-color: aliceblue;
 }
 
-.home #foto3 {
-  float: right;
-}
-
 .home img {
   margin: 10px 120px;
+  width: 500px;
+}
+
+.home .div1 {
+  position: relative;
+}
+.home .evento1-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.home .evento1 {
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.home .evento1:hover {
+  opacity: 0;
+}
+
+.home .evento2-2 {
+  position: absolute;
+  top: 0;
+  right: 1.3%;
+  z-index: -1;
+}
+
+.home .evento2 {
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.home .evento2:hover {
+  opacity: 0;
 }
 
 .presents {
