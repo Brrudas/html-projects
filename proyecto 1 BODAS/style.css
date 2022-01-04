@@ -113,6 +113,20 @@ body {
   background-attachment: fixed;
 }
 
+.blessing .links {
+  display: flex;
+}
+
+.blessing .links [class*="foto"] {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
 .blessing img {
   height: 700px;
 }
