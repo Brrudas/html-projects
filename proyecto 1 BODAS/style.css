@@ -30,7 +30,6 @@ body {
 }
 
 .home img {
-  /* margin: 10px 120px; */
   width: 500px;
 }
 
@@ -38,45 +37,53 @@ body {
   position: relative;
 }
 
-.home .evento1-1,
-.evento1 {
+.home .evento1,
+.evento1-1,
+.evento1-3 {
   position: absolute;
   top: 270px;
   left: 120px;
 }
 
-.home .evento1-1 {
-  z-index: -1;
-}
-
-.home .evento1 {
-  transition-property: all;
-  transition-duration: 2s;
-}
-
-.home .evento1:hover {
-  opacity: 0;
-}
-
-.home .evento2-2,
-.evento2 {
+.home .evento2,
+.evento2-2,
+.evento2-3 {
   position: absolute;
   top: 270px;
   right: 155px;
 }
 
-.home .evento2-2 {
+.home .evento1-1,
+.evento2-2 {
   z-index: -1;
 }
 
-.home .evento2 {
-  transition-property: all;
-  transition-duration: 2s;
+.home .evento1-3,
+.evento2-3 {
+  z-index: -2;
 }
 
-.home .evento2:hover {
+/* transicion de imagenes */
+
+.home .evento1:hover,
+.evento2:hover {
   opacity: 0;
 }
+
+.home .evento1,
+.evento2 {
+  transition-duration: 1s;
+}
+
+/* .home .evento1-1:hover,
+.evento2-2:hover {
+  opacity: 0;
+}
+
+.home .evento1-1,
+.evento2-2 {
+  transition-duration: 3s;
+} */
 
 .presents {
   background: url(./images/presents/background.jpg);
@@ -108,8 +115,13 @@ body {
 }
 
 .blessing {
+  /* background-color: rgb(77, 72, 72); */
   background: url(./images/Blessing/background.jpg);
+  /* background-blend-mode: multiply; */
+
   background-size: cover;
+  height: 100vh;
+
   background-attachment: fixed;
 }
 
