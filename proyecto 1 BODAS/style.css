@@ -11,22 +11,21 @@ body {
   font-style: italic;
   border-style: solid;
   border-color: aliceblue;
-  background-color: #a0e8af;
   font-family: "Imperial Script", cursive;
   text-align: center;
 }
-
+.home p {
+  color: white;
+}
 .home h2 {
   display: inline-block;
   margin: 10px 120px;
   box-sizing: border-box;
-  background-color: #a0e8af;
   font-family: "Imperial Script", cursive;
   text-align: center;
   color: #86baa1;
+
   width: 500px;
-  border-style: solid;
-  border-color: aliceblue;
 }
 
 .home img {
@@ -35,6 +34,11 @@ body {
 
 .home {
   position: relative;
+  background-image: url(./images/HomePage/bckg.jpg);
+  background-size: 100vw;
+  background-position: bottom;
+  background-color: rgb(77, 72, 72);
+  background-blend-mode: multiply;
 }
 
 .home .evento1,
@@ -115,13 +119,11 @@ body {
 }
 
 .blessing {
-  /* background-color: rgb(77, 72, 72); */
   background: url(./images/Blessing/background.jpg);
-  /* background-blend-mode: multiply; */
-
   background-size: cover;
-  height: 100vh;
-
+  background-color: rgb(77, 72, 72);
+  background-blend-mode: multiply;
+  background-position: left;
   background-attachment: fixed;
 }
 
@@ -141,6 +143,7 @@ a {
 
 .blessing img {
   height: 700px;
+  padding: 70px;
 }
 
 .apellido {
