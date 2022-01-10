@@ -9,10 +9,12 @@ body {
   color: white;
   font-family: "Imperial Script", cursive;
   font-style: italic;
-  border-style: solid;
-  border-color: aliceblue;
+  border: 1px solid aliceblue;
+  border-left: 0px;
+  border-right: 0px;
   font-family: "Imperial Script", cursive;
   text-align: center;
+  margin-top: 5px;
 }
 .home p {
   color: white;
@@ -45,7 +47,7 @@ body {
 .evento1-1,
 .evento1-3 {
   position: absolute;
-  top: 270px;
+  top: 150px;
   left: 120px;
 }
 
@@ -53,7 +55,7 @@ body {
 .evento2-2,
 .evento2-3 {
   position: absolute;
-  top: 270px;
+  top: 150px;
   right: 155px;
 }
 
@@ -89,6 +91,13 @@ body {
   transition-duration: 3s;
 } */
 
+.surveylink {
+  color: rgb(131, 4, 4);
+}
+
+a:hover {
+  color: royalblue;
+}
 .presents {
   background: url(./images/presents/background.jpg);
   background-size: contain;
@@ -146,7 +155,7 @@ a {
   padding: 70px;
 }
 
-.apellido {
+.div2 .apellido {
   font-weight: bold;
   color: rgb(13, 155, 155);
 }
