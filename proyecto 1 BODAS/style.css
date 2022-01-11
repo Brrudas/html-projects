@@ -1,65 +1,166 @@
 body {
   background: linear-gradient(#3ab795, #a0e8af);
+  background-color: #3ab795;
+  margin: 0;
+  height: 100vh;
 }
 
 .home h1 {
   color: white;
   font-family: "Imperial Script", cursive;
   font-style: italic;
-  border-style: solid;
-  border-color: aliceblue;
-  background-color: #a0e8af;
+  border: 1px solid aliceblue;
+  border-left: 0px;
+  border-right: 0px;
   font-family: "Imperial Script", cursive;
   text-align: center;
+  margin-top: 5px;
 }
-
+.home p {
+  color: white;
+}
 .home h2 {
   display: inline-block;
-  margin: 0px 120px;
+  margin: 10px 120px;
   box-sizing: border-box;
-  background-color: #a0e8af;
   font-family: "Imperial Script", cursive;
   text-align: center;
-}
-
-.home .bendicion {
   color: #86baa1;
-  width: 500px;
-  border-style: solid;
-  border-color: aliceblue;
-}
 
-.home .boda {
-  color: #86baa1;
   width: 500px;
-  border-style: solid;
-  border-color: aliceblue;
 }
 
 .home img {
-  margin: 10px 120px;
+  width: 500px;
 }
 
+.home {
+  position: relative;
+  background-image: url(./images/HomePage/bckg.jpg);
+  background-size: 100vw;
+  background-position: bottom;
+  background-color: rgb(77, 72, 72);
+  background-blend-mode: multiply;
+}
+
+.home .evento1,
+.evento1-1,
+.evento1-3 {
+  position: absolute;
+  top: 150px;
+  left: 120px;
+}
+
+.home .evento2,
+.evento2-2,
+.evento2-3 {
+  position: absolute;
+  top: 150px;
+  right: 155px;
+}
+
+.home .evento1-1,
+.evento2-2 {
+  z-index: -1;
+}
+
+.home .evento1-3,
+.evento2-3 {
+  z-index: -2;
+}
+
+/* transicion de imagenes */
+
+.home .evento1:hover,
+.evento2:hover {
+  opacity: 0;
+}
+
+.home .evento1,
+.evento2 {
+  transition-duration: 1s;
+}
+
+/* .home .evento1-1:hover,
+.evento2-2:hover {
+  opacity: 0;
+}
+
+.home .evento1-1,
+.evento2-2 {
+  transition-duration: 3s;
+} */
+
+.surveylink {
+  color: rgb(131, 4, 4);
+}
+
+a:hover {
+  color: royalblue;
+}
 .presents {
   background: url(./images/presents/background.jpg);
   background-size: contain;
   background-size: 40%;
 }
 
-.survey {
+.survey img {
+  float: right;
+  width: 200px;
+  position: absolute;
+}
+
+.survey .one {
+  top: 0;
+  right: 0;
+}
+
+.survey .two {
+  top: 5%;
+  right: 10%;
+  z-index: 2;
+}
+
+.survey .three {
+  top: 20%;
+  right: 20%;
+  z-index: 0;
 }
 
 .blessing {
   background: url(./images/Blessing/background.jpg);
   background-size: cover;
+  background-color: rgb(77, 72, 72);
+  background-blend-mode: multiply;
+  background-position: left;
   background-attachment: fixed;
+}
+
+.blessing .links {
+  display: flex;
+}
+
+.blessing .links [class*="foto"] {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
 }
 
 .blessing img {
   height: 700px;
+  padding: 70px;
 }
 
-.apellido {
+.div2 .apellido {
   font-weight: bold;
   color: rgb(13, 155, 155);
+}
+
+.div2 {
+  position: absolute;
+  bottom: 0;
 }
